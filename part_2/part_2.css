@@ -1,0 +1,34 @@
+:root {
+    --rotation: 10deg; 
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    background-color: green;
+}
+
+#pullCardBtn {
+    margin-top: 1%;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    z-index: 10000;
+}
+
+#cardPile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+}
+
+.card {
+    position: absolute;
+}
